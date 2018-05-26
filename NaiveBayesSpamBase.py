@@ -123,7 +123,8 @@ if __name__ == '__main__':
 
     data = []
     count  = 0.0
-    # parse spambase data
+	# Parse spambase data.  This implys the file 'spambase.data' exists within the same directory as the
+    # '.py' file
 
     with open('spambase.data', 'r') as filestream:
         for line in filestream:
